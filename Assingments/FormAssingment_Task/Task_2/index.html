@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+
+    <!-- <table border="1"  width="400" cellpadding="6" cellspacing="0">
+       <td>
+          <h1>Pizza Order Form</h1>
+
+          <label for="fname">First Name:</label>
+          <input type="fname" name="fname" id="fname">
+
+          <br>
+          <br>
+
+
+          <label for="lname">Last Name:</label>
+          <input type="lname" name="lname" id="lname">
+
+          <br>
+          <br>
+
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email">
+
+          <br>
+          <br>
+
+           <label for="mobile">Contact Number:</label>
+           <input type="number" name="mobile" id="mobile">
+
+           <br>
+           <br>
+
+
+          <label for="pdd">Preferred Delivery date:</label>
+          <input type="date" name="pdd" id="pdd">
+
+
+          <br>
+          <br>
+
+
+          <label for="size">Size:</label>
+          <br>
+          <input type="radio" name="size" id="small" value="small">
+          <span>Small</span>
+          <input type="radio" name="size" id="medium" value="medium">
+          <span>Medium</span>
+          <input type="radio" name="size" id="large" value="large">
+          <span>Large</span>
+
+          <br>
+          <br>
+
+
+        
+
+
+        </td>
+    </table> -->
+    
+
+
+     <br><br>
+
+    <table
+        border="1"
+        cellpadding="15"
+        cellspacing="0"
+        align="center"
+        width="400"
+    >
+
+        <tr>
+            <td>
+
+                <h2>Pizza Order Form</h2>
+
+                <form>
+
+                    <label for="firstName">First Name:</label>
+
+                    <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                   
+                    >
+
+                    <br><br>
+
+                    <label for="lastName">Last Name:</label>
+
+                    <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                      
+                    >
+                    
+
+                    <br><br>
+
+                    <label for="email">Email Address:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        
+                    >
+
+                    <br><br>
+
+                    <label for="contact">Contact Number:</label>
+
+                    <input
+                        type="tel"
+                        id="contact"
+                        name="contact"
+                        maxlength="10"
+                    >
+
+                    <br><br>
+
+                    <label for="deliveryDate">
+                        Preferred Delivery Date:
+                    </label>
+
+                    <input
+                        type="date"
+                        id="deliveryDate"
+                        name="deliveryDate"
+                    >
+
+                    <br><br>
+
+                    <label>Size:</label>
+
+                    <input
+                        type="radio"
+                        id="small"
+                        name="size"
+                        value="Small"
+                    >
+
+                    <label for="small">Small</label>
+
+                    <input
+                        type="radio"
+                        id="medium"
+                        name="size"
+                        value="Medium"
+                    >
+
+                    <label for="medium">Medium</label>
+
+                    <input
+                        type="radio"
+                        id="large"
+                        name="size"
+                        value="Large"
+                    >
+
+                    <label for="large">Large</label>
+
+                    <br><br>
+
+                    <label for="flavor">Flavor:</label>
+
+                    <br>
+
+                    <input
+                        type="checkbox"
+                        id="hawaiian"
+                        name="flavor"
+                        value="Hawaiian"
+                    >
+
+                    <label for="hawaiian">
+                        Hawaiian (Php 150.00)
+                    </label>
+
+                    <select name="hawaiianQuantity">
+
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+
+                    </select>
+
+                    <br>
+
+                    <input
+                        type="checkbox"
+                        id="pepperoni"
+                        name="flavor"
+                        value="Pepperoni"
+                    >
+
+                    <label for="pepperoni">
+                        Pepperoni (Php 140.00)
+                    </label>
+
+                    <select name="pepperoniQuantity">
+
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+
+                    </select>
+
+                    <br>
+
+                    <input
+                        type="checkbox"
+                        id="vegetable"
+                        name="flavor"
+                        value="Vegetable"
+                    >
+
+                    <label for="vegetable">
+                        Vegetable (Php 130.00)
+                    </label>
+
+                    <select name="vegetableQuantity">
+
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+
+                    </select>
+
+                    <br><br>
+
+                    <label for="cardNumber">
+                        Credit Card Number:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="cardNumber"
+                        name="cardNumber"
+                    >
+
+                    <br><br>
+
+                    <label for="pin">PIN:</label>
+
+                    <input
+                        type="password"
+                        id="pin"
+                        name="pin"
+                        maxlength="4"
+                    >
+
+                    <br><br>
+
+                    <label for="notes">Additional Note:</label>
+
+                    <br>
+
+                    <textarea
+                        id="notes"
+                        name="notes"
+                        rows="5"
+                        cols="30"
+                    ></textarea>
+
+                    <br><br>
+
+                    <button type="submit">
+                        Submit Order
+                    </button>
+
+                </form>
+
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>
