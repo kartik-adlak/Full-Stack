@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(199, 230, 241);
+}
+
+h1{
+    font-size: 50px;
+}
+
+.hello{
+    height: 50px;
+    font-size: 20px;
+    /* background-color: rgb(25, 252, 252); */
+}
+
+
+#SubmitButton{
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+input{
+  
+    font-size: 15px;
+    height: 30px;
+}
