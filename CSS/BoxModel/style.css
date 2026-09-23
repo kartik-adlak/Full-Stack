@@ -1,0 +1,23 @@
+
+#a{
+    width: 500px;
+    border: 1px solid black;
+}
+
+#h{
+    width: 200px;
+    border: 1px solid black;
+}
+
+#d{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+     border: 5px solid black;
+     margin: 20px 40px;
+     padding: 30px;
+
+}
+
+
