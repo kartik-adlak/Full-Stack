@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <br><br>
+
+    <form>
+
+        <!-- Main table -->
+        <table
+            width="1000"
+            cellpadding="20"
+            cellspacing="0"
+            align="center"
+        >
+
+            <tr>
+
+                <!-- Doctor image -->
+                <td
+                    width="45%"
+                    align="center"
+                   
+                >
+
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Gy5Tsp8P2hb7t8OJDQyFmS6-buFN3hDsh_wEoQw0Gg&s=10"
+                        alt="Female Doctor"
+                        width="300px"
+                    >
+
+                </td>
+
+
+                <!-- Appointment form -->
+                <td
+                    width="55%"
+                    valign="top"
+                >
+
+                    <h1 align="center">
+                        Doctor Appointment Form
+                    </h1>
+
+                    <hr color="brown" size="3">
+
+                    <br>
+
+                    <table
+                        width="100%"
+                        cellpadding="10"
+                        cellspacing="0"
+                    >
+
+                        <!-- Appointment date -->
+                        <tr>
+                            <td width="30%">
+                                <label for="appointmentDate">
+                                    <b>Appointment Date</b>
+                                </label>
+                            </td>
+
+                            <td>
+                                <input
+                                    type="date"
+                                    id="appointmentDate"
+                                    name="appointmentDate"
+                                    required
+                                >
+                            </td>
+                        </tr>
+
+
+                        <!-- Appointment time -->
+                        <tr>
+                            <td>
+                                <label for="appointmentTime">
+                                    <b>Appointment Time</b>
+                                </label>
+                            </td>
+
+                            <td>
+                                <input
+                                    type="time"
+                                    id="appointmentTime"
+                                    name="appointmentTime"
+                                    required
+                                >
+                            </td>
+                        </tr>
+
+
+                        <!-- Name -->
+                        <tr>
+                            <td>
+                                <b>Name</b>
+                            </td>
+
+                            <td>
+                                <input
+                                    type="text"
+                                    id="firstName"
+                                    name="firstName"
+                                    placeholder="First"
+                                    size="18"
+                                    required
+                                >
+
+                               
+
+                                <input
+                                    type="text"
+                                    id="lastName"
+                                    name="lastName"
+                                    placeholder="Last"
+                                    size="18"
+                                    required
+                                >
+                            </td>
+                        </tr>
+
+
+                        <!-- Gender -->
+                        <tr>
+                            <td>
+                                <b>Gender</b>
+                            </td>
+
+                            <td>
+                                <label for="male">
+                                    Male
+                                </label>
+
+                                <input
+                                    type="radio"
+                                    id="male"
+                                    name="gender"
+                                    value="Male"
+                                >
+
+                                <label for="female">
+                                    Female
+                                </label>
+
+                                <input
+                                    type="radio"
+                                    id="female"
+                                    name="gender"
+                                    value="Female"
+                                >
+                            </td>
+                        </tr>
+
+
+                        <!-- Phone -->
+                        <tr>
+                            <td>
+                                <label for="phone">
+                                    <b>Phone</b>
+                                </label>
+                            </td>
+
+                            <td>
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    placeholder="####"
+                                    maxlength="10"
+                                    size="18"
+                                    required
+                                >
+                            </td>
+                        </tr>
+
+
+                        <!-- Address -->
+                        <tr>
+                            <td>
+                                <b>Address</b>
+                            </td>
+
+                            <td>
+                                <input
+                                    type="text"
+                                    id="city"
+                                    name="city"
+                                    placeholder="city"
+                                    size="18"
+                                >
+
+                             
+
+                                <input
+                                    type="text"
+                                    id="state"
+                                    name="state"
+                                    placeholder="state"
+                                    size="18"
+                                >
+                            </td>
+                        </tr>
+
+
+                        <!-- Query -->
+                        <tr>
+                            <td valign="top">
+                                <label for="query">
+                                    <b>Your Query</b>
+                                </label>
+                            </td>
+
+                            <td>
+                                <textarea
+                                    id="query"
+                                    name="query"
+                                    rows="5"
+                                    cols="42"
+                                ></textarea>
+                            </td>
+                        </tr>
+
+
+                        <!-- Appointment type -->
+                        <tr>
+                            <td valign="top">
+                                <b>Appointment Type</b>
+                            </td>
+
+                            <td>
+                                <b>
+                                    Select which appointment type(s)
+                                    you require
+                                </b>
+
+                                <br>
+
+                                <input
+                                    type="checkbox"
+                                    id="cervixCheckup"
+                                    name="appointmentType"
+                                    value="Cervix Checkup"
+                                >
+
+                                <label for="cervixCheckup">
+                                    Cervix Checkup
+                                </label>
+
+                                <br>
+
+                                <input
+                                    type="checkbox"
+                                    id="heartCheckup"
+                                    name="appointmentType"
+                                    value="Heart Checkup"
+                                >
+
+                                <label for="heartCheckup">
+                                    Heart Checkup
+                                </label>
+
+                                <br>
+
+                                <input
+                                    type="checkbox"
+                                    id="eyeCheckup"
+                                    name="appointmentType"
+                                    value="Eye Check-up"
+                                >
+
+                                <label for="eyeCheckup">
+                                    Eye Check-up
+                                </label>
+
+                                <br>
+
+                                <input
+                                    type="checkbox"
+                                    id="hearingTest"
+                                    name="appointmentType"
+                                    value="Hearing Test"
+                                >
+
+                                <label for="hearingTest">
+                                    Hearing Test
+                                </label>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td></td>
+
+                            <td>
+                                <button type="submit">
+                                    Send
+                                </button>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </form>
+
+    <br>
+
+    <hr width="1100">
+</body>
+</html>
