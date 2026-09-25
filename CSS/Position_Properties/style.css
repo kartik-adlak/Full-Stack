@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#header{
+    background-color: lightskyblue;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   position: sticky;
+   top: 0px;
+   
+}
+
+#menu-items{
+    display: flex;
+    gap: 20px;
+   align-items: center;
+
+}
+
+#menu-items button{
+    padding: 8px 17px;
+    background-color: rgb(231, 222, 222);
+    border: 1px solid black;
+}
+
+#ask-me {
+    position: fixed;
+
+    background-color: red;
+    padding: 8px 14px;
+    bottom: 30px;
+}
