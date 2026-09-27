@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login registration Form</title>
     <link rel="stylesheet" href="style.css">
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
 </head>
 <body>
     <div id="container">
@@ -13,11 +17,14 @@
             <h1>Login</h1>
             <form>
                 <div class="input-box">
+                    <i class="ri-mail-line"></i>
                     <input type="email" placeholder="Enter your email">
-                </div>
+                </div>  
 
                 <div class="input-box">
+                     <i class="ri-lock-line"></i>
                     <input type="password" placeholder="Enter your password">
+                    <i id="eye" class="ri-eye-fill"></i>
                 </div>
 
                 <div class="login-option">
@@ -38,7 +45,44 @@
 
         </div>
 
-        <div class="register-card"></div>
+        <div class="register-card">
+            <h1>registration</h1>
+
+            <form>
+                <div class="input-box">
+                    <i class="ri-user-line"></i>
+                    <input type="name" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                    <i class="ri-mail-line"></i>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+
+                <div class="input-box">
+                    <i class="ri-lock-line"></i>
+                    <input type="password" placeholder="Create a password">
+                </div>
+
+                <div class="input-box">
+                    <i class="ri-lock-line"></i>
+                    <input type="password" placeholder="Confirm a password">
+                    <i id="eye" class="ri-eye-fill"></i>
+                </div>
+
+                <label class="terms">
+                    <input type="checkbox">
+                    I accept all terms & conditions
+                </label>
+
+                <button type="submit">Register Now</button>
+
+                 <p>Already have an account?
+                    <a href="#">Signup now</a>
+                </p>
+
+
+            </form>
+        </div>
     </div>
 </body>
 </html>

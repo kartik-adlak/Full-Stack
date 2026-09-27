@@ -34,3 +34,30 @@
     padding: 8px 14px;
     bottom: 30px;
 }
+
+
+
+#section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+/* #ricr-img-div{
+    width: 800px;
+    height: 500px;
+    
+} */
+
+#ricr-img{
+
+    width: 700px;
+    height: 700px;
+}
+
+#read-more , #learn-more{
+      padding: 8px 14px;
+    background-color: red;
+    border: 1px solid #8b0202;
+}
