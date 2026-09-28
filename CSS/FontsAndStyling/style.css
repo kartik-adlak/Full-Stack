@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Playwrite+CU+Guides&display=swap');
+    
+  *{  /* margin: 0; */
+    /* padding: 0; */
+
+}
+
+
+html,body{
+    height: 100%;
+    /* width: 100%; */
+}
+
+.heading{
+    font-size: 60px;
+    font-weight: 100;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+   font-family: "Black Ops One", system-ui;
+        
+
+}
+
+
+.subheading{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 20px;
+    height: 10px;
+}
+
+.subheading::before{
+    content: "";
+    background-color: red; 
+    position: absolute;
+    width: 20%;
+    height: 3px;
+
+    background-color: #168de2;
+
+    margin-top: 35px;
+}
+
+
+#description{
+    padding: 20px;
+    width: 80%;
+}
+
+#description span{
+    font-weight: 500;
+    color: green;
+
+}
+
+#section1 , #section2{
+
+    padding: 20px;
+}
+
+main{
+    margin-top: 10px;
+   
+}
+
+.pointer-head{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pointer-head1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul{
+    margin-left: 20px;
+    list-style: "😂 ";
+
+    /* list-style-image: url(""); */
+}
+
+ol{
+    margin-left: 30px;
+    list-style: lower-greek;
+}
+
+
+ol li:nth-child(1){
+    background-color: rgb(245, 100, 109);
+}
+
+ol li:nth-child(3){
+    background-color: rgb(242, 242, 23);
+}
