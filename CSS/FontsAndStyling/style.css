@@ -56,7 +56,7 @@ html,body{
 
 }
 
-#section1 , #section2{
+#section1 , #section2, #section3{
 
     padding: 20px;
 }
@@ -96,3 +96,19 @@ ol li:nth-child(1){
 ol li:nth-child(3){
     background-color: rgb(242, 242, 23);
 }
+
+
+#section3 ol{
+    list-style:armenian;
+}
+
+#section3 ol li:nth-child(1){
+    background-color: aqua;
+}
+#section3 ol li:nth-child(2){
+    background-color: rgb(250, 40, 127);
+}
+#section3 ol li:nth-child(3){
+    background-color: rgb(15, 58, 212);
+}
+
