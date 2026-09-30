@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(203, 141, 161); */
+}
+
+
+
+#hw{
+    width: 400px;
+    height: 2.5rem;
+    border: 1px solid black;
+    text-wrap-mode: nowrap;
+    overflow: hidden;
+    transition: width 4s  ease-in-out;
+
+}
+
+
+
+
+#hw:hover{
+    width: 700px;
+    transition: width 4s;
+}
+
+
+#welcome{
+    
+    font-size: 30px;
+    color: crimson;
+
+}
+
+#welcome::after{
+    content: "❤️";
+    /* background-color: cornflowerblue; */
+
+
+}
+
+#box{
+    height: 30px;
+    width: 30px;
+   text-align: center;
+    border: 1px solid black;
+}
+
+#box:hover{
+    width: 100px;
+    height: 100px;
+    transition: width 5s ;
+}
+
+.box{
+    
+}
+
+
+.box::before{
+    content: "🤣";
+}
+
+
+/* 
+h1{
+
+ animation: animate 5s linear infinite ,reverse;
+
+} */
+
+/* 
+@keyframes animate{
+    0%{
+        scale: 1;
+    }
+    20%{
+        background-color: brown;
+    }
+    50%{
+        scale: 1.6;
+        background-color: blueviolet;
+    }
+     70%{
+        scale: 1.9;
+        background-color: rgb(151, 8, 98);
+    }
+     50%{
+        scale: 2.2;
+        background-color: rgb(8, 148, 218);
+        transform: translateX(500px);
+    }
+
+} */
