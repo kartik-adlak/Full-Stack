@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+}
+
+#card{
+    height: 300px;
+    width: 300px;
+    border: 1px solid wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 210px;
+    animation: animate 6s ease ;
+}
+
+h1{
+    color: white;
+}
+
+#card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@keyframes animate{
+    0%{
+        scale: 1;
+    }
+    20%{
+        background-color: brown;
+    }
+    50%{
+        scale: 1.6;
+        background-color: blueviolet;
+    }
+     70%{
+        scale: 1.9;
+        background-color: rgb(151, 8, 98);
+    }
+     50%{
+        scale: 2.2;
+        background-color: rgb(8, 148, 218);
+        transform: translateX(500px);
+    }
+
+} 
+
+
+
