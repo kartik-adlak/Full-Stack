@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #222;
+    /* background-color: #222; */
 }
 
 #card{
@@ -34,21 +34,21 @@ h1{
 
 @keyframes animate{
     0%{
-        scale: 1;
+        scale: 0.6;
     }
     20%{
-        background-color: brown;
+       background-image: url(https://plus.unsplash.com/premium_photo-1785042668149-da09925c51d2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     }
     50%{
-        scale: 1.6;
-        background-color: blueviolet;
+        scale: 1;
+       background-image: url("https://plus.unsplash.com/premium_photo-1739665366660-38f0a8af45c2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     }
      70%{
         scale: 1.9;
         background-color: rgb(151, 8, 98);
     }
      50%{
-        scale: 2.2;
+        scale: 1.5;
         background-color: rgb(8, 148, 218);
         transform: translateX(500px);
     }
