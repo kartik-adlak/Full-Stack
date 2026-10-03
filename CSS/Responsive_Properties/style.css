@@ -57,19 +57,20 @@ p{
 
 }
 
-img{
+img{    
     height: 400px;
     width: 400px;
     object-fit: cover;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 1000px) {
   
     #badabox{
-        grid-template-columns: auto ;
-         flex-direction: column;
+        grid-template-columns: auto auto auto ;
+        flex-direction: column;
         row-gap: 30px;
     }
+    
 
     #para1, #para2{
          flex-direction: column; 
@@ -93,13 +94,18 @@ img{
     }
 
 
-}
+} */
 
-/* 
+
+
+
+
+
+
 @media screen and (min-width: 400px) {
   
     #badabox{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
          flex-direction: column;
         row-gap: 20px;
     }
@@ -126,7 +132,7 @@ img{
     }
 
 }
- */
+
 
 
 
