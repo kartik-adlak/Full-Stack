@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Playwrite+CU+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.playwrite-cu-guides-regular {
+  font-family: "kartik";
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+a{
+    text-decoration: none;
+}

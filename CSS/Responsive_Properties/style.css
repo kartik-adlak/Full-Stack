@@ -9,26 +9,13 @@ html,body{
 }
 
 
-#h1{
-    color: aliceblue;
-    font-family: sans-serif;
-    font-size: 20px;
-    text-align: center;
-    height: 100px;
-    min-width: 90%;
-    
-    padding: 10px 12px;
-    margin-top: 10px;
-    overflow: hidden;
-}
+
 #badabox{
-    padding: 10px 30px;
-    /* display: flex; */
-     display: grid;
-    /* align-items: center; */
-    justify-content: space-evenly;
-     grid-template-columns: auto auto auto auto auto;
-    /* flex-wrap: wrap; */
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto auto auto;
+  
+  padding: 20px;    
    
 
     .box{
@@ -63,7 +50,7 @@ img{
     object-fit: cover;
 }
 
-/* @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   
     #badabox{
         grid-template-columns: auto auto auto ;
@@ -94,7 +81,7 @@ img{
     }
 
 
-} */
+}
 
 
 
@@ -124,12 +111,7 @@ img{
         height: 250px;
     }
 
-     #h1{
-        width: 40%;
-        align-items: center;
-       font-family: 10px;
-       background-color: rebeccapurple;
-    }
+    
 
 }
 
