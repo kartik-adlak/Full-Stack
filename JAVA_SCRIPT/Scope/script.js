@@ -10,5 +10,13 @@ let x = 10, y = 20;
 console.log(x+y);
 
 function def(){
-     console.log("I am Function DEF");
+    console.log("I am Function DEF");
 }
+
+
+
+const add = (a, b) => {
+    console.log(a + b);
+};
+
+add(10, 20);
