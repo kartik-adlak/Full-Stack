@@ -15,3 +15,21 @@ for (let i = 0; i < fruits.length; i++) {
 }
 
     
+
+
+
+
+
+
+
+const fruitss = ["Apple", "Mango", "Banana", "Orange"];
+
+fruits.push("Grapes");
+
+console.log(fruitss);
+
+console.log("Total fruits:", fruits.length);
+
+fruits.forEach((fruit) => {
+    console.log(fruit);
+});
