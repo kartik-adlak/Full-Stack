@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-black">
+   
+    <header>
+        <nav class="navbar bg-primary px-5">
+            <div class="navbar-brand text-light">
+                Dynamic DOM Creation & Manipulation
+            </div>
+            <div class="nav-item">
+                <div class="nav-link text-light">Sample</div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div id="task1" class="container p-4 rounded shadow bg-white mt-3 border">
+            <h1 class="text-primary">Content</h1>
+        </div>
+
+        <hr>
+
+
+        <div id="myList" class="container p-4 bg-white rounded">
+
+        </div>
+
+        <hr>
+
+        <div class="container p-4 bg-white rounded">
+            <div class="row" id="card-parent">
+                <div class="col-3 p-2 border shadow rounded">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus architecto excepturi iusto!</p>
+                    <div class="d-flex gap-3">
+                        <button class="btn btn-outline-primary col-6">Task 1</button>
+                        <button class="btn btn-primary col-6">Task 2</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+        
+   
+
+    <!-- Bootstrap Screen -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
