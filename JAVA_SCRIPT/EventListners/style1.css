@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #222;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.dashboard {
+    max-width: 650px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #4438a8;
+}
+
+.description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.notification-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000010;
+}
+
+.notification-card h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.notification-card p {
+    color: #555;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #5546c7;
+    color: white;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #392e96;
+}
+
+.clear-button {
+    width: 100%;
+    background-color: #d94343;
+    margin-top: 5px;
+}
+
+.clear-button:hover {
+    background-color: #b92f2f;
+}
+
+.dark-mode {
+    background-color: #181824;
+    color: #f5f5f5;
+}
+
+.dark-mode .notification-card {
+    background-color: #29293b;
+}
+
+.dark-mode .notification-card p {
+    color: #ddd;
+}
+
+.dark-mode .description {
+    color: #ccc;
+}
+
+.dark-mode h1 {
+    color: #b6adff;
+}
