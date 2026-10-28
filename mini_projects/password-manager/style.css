@@ -1,0 +1,271 @@
+
+/* 1. Basic page settings */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f6fc;
+    color: #1e293b;
+}
+
+/* 2. Common container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* 3. Header */
+.header {
+    background-color: #123b82;
+    color: white;
+    padding: 28px 0;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin: 0 0 8px;
+    font-size: 30px;
+}
+
+.header p {
+    margin: 0;
+    color: #dbeafe;
+    line-height: 1.6;
+}
+
+/* 4. Main sections */
+.form-section,
+.saved-section {
+    background-color: white;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.07);
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-size: 22px;
+}
+
+/* 5. Form fields */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-group input,
+#searchInput {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+    outline: none;
+}
+
+.form-group input:focus,
+#searchInput:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+/* 6. Password input and show button */
+.password-input {
+    display: flex;
+    gap: 8px;
+}
+
+.password-input input {
+    flex: 1;
+    min-width: 0;
+}
+
+.password-input button {
+    flex-shrink: 0;
+    padding: 0 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* 7. Buttons */
+.btn {
+    border: none;
+    padding: 11px 16px;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn-edit {
+    background-color: #0ea5e9;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #ef4444;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #e2e8f0;
+    color: #1e293b;
+}
+
+/* 8. Form messages */
+#message {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.message-success {
+    color: #15803d;
+}
+
+.message-error {
+    color: #dc2626;
+}
+
+/* 9. Search */
+#searchInput {
+    margin-bottom: 20px;
+}
+
+/* 10. Saved password cards */
+#passwordList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.password-card {
+    min-width: 0;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 18px;
+    background-color: #ffffff;
+}
+
+.password-card h3 {
+    margin: 0 0 12px;
+    color: #123b82;
+    font-size: 18px;
+}
+
+.password-card p {
+    margin: 8px 0;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.password-card .password-value {
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+.card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.card-actions button {
+    padding: 9px 12px;
+}
+
+/* 11. Empty state */
+.empty-state {
+    grid-column: 1 / -1;
+    padding: 28px 16px;
+    text-align: center;
+    border: 1px dashed #cbd5e1;
+    border-radius: 10px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* 12. Editing form indicator */
+.editing-title {
+    color: #0e7490;
+}
+
+/* 13. Tablet and mobile */
+@media (max-width: 767px) {
+    .container {
+        width: 92%;
+    }
+
+    .header {
+        padding: 22px 0;
+        margin-bottom: 20px;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .form-section,
+    .saved-section {
+        padding: 18px;
+        margin-bottom: 18px;
+    }
+
+    #passwordList {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .password-card {
+        padding: 15px;
+    }
+
+    .card-actions button {
+        flex: 1;
+    }
+}
+
+@media (max-width: 360px) {
+    .form-section,
+    .saved-section {
+        padding: 13px;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+
+    .password-input {
+        gap: 5px;
+    }
+
+    .password-input button {
+        padding: 0 9px;
+    }
+}
