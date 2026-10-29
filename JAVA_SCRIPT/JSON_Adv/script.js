@@ -15,6 +15,7 @@ console.log(Object.entries(ob));
 const {fullName, year, cgpa} = ob;
 
 
+console.log(ob.gender);
 
 
 const ar = [10, 20, 30, 40, 6, 50];
