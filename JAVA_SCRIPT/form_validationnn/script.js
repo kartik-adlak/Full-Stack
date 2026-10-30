@@ -10,3 +10,7 @@ const loginForm = document.querySelectorById("loginForm");
 loginForm.addEventListener("submit", (e) => {
     e.preventDefault()
 });
+
+
+testFormData.forEach((value, key) => console.log(key, ":", value));
+
