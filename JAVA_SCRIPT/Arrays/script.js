@@ -31,3 +31,89 @@ fruits.forEach((fruit) => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const form = document.getElementById("loginForm");
+
+// form.addEventListener("submit", function(event) {
+
+//     event.preventDefault();
+
+//     let name = document.getElementById("name").value.trim();
+
+//     let password = document.getElementById("password").value;
+
+//     let nameMsg = document.getElementById("nameMsg");
+//     let passwordMsg = document.getElementById("passwordMsg");
+//     let result = document.getElementById("result");
+
+//     // Name Validation
+//     let namePattern = /^[A-Za-z ]+$/;
+
+//     if (name === "") {
+
+//         nameMsg.textContent = "Please enter your name";
+
+//     } 
+//     else if (!namePattern.test(name)) {
+
+//         nameMsg.textContent = "Invalid name! Only letters and spaces allowed";
+
+//     } 
+//     else {
+
+//         nameMsg.textContent = "Valid Name";
+
+//     }
+
+
+//     // Password Validation
+//     if (password === "") {
+
+//         passwordMsg.textContent = "Please enter your password";
+
+//     } 
+//     else if (password.length < 8) {
+
+//         passwordMsg.textContent = "Password must contain at least 8 characters";
+
+//     } 
+//     else {
+
+//         passwordMsg.textContent = "Valid Password";
+
+//     }
+
+
+//     // Final Result
+//     if (
+//         name !== "" &&
+//         namePattern.test(name) &&
+//         password !== "" &&
+//         password.length >= 8
+//     ) {
+
+//         result.textContent = "Login Form Validated Successfully!";
+
+//     } 
+//     else {
+
+//         result.textContent = "Please correct the errors!";
+
+//     }
+
+// });
