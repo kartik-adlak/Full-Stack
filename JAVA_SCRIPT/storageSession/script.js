@@ -45,3 +45,30 @@ form.addEventListener("submit", function(e) {
 
 
 
+
+
+
+
+
+let formm = document.querySelector("#ageForm");
+
+form.addEventListener("submit", function(e) {
+
+    e.preventDefault();
+
+    let age = document.querySelector("#age").value;
+
+    if (age === "") {
+        console.log("Please enter your age");
+    }
+    else if (age < 0) {
+        console.log("Invalid Age");
+    }
+    else if (age >= 18) {
+        console.log("You are Eligible");
+    }
+    else {
+        console.log("You are Not Eligible");
+    }
+
+});
