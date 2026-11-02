@@ -1,43 +1,41 @@
-let form = document.querySelector("#nameForm");
+// let form = document.querySelector("#nameForm");
 
-form.addEventListener("submit", function(e) {
+// form.addEventListener("submit", function(e) {
 
-    e.preventDefault();
+//     e.preventDefault();
 
-    let name = document.querySelector("#name").value.trim();
+//     let name = document.querySelector("#name").value.trim();
 
-    let valid = true;
+//     let valid = true;
 
-    if (name === "") {
-        valid = false;
-    }
+//     if (name === "") {
+//         valid = false;
+//     }
 
-    for (let i = 0; i < name.length; i++) {
+//     for (let i = 0; i < name.length; i++) {
 
-        let char = name[i];
-        if (
-            (char >= "a" && char <= "z") ||
-            (char >= "A" && char <= "Z") ||
-            char === " "
-        ) {
-            continue;
-        }
-        else {
-            valid = false;
-            break;
-        }
-    }
+//         let char = name[i];
+//         if (
+//             (char >= "a" && char <= "z") ||
+//             (char >= "A" && char <= "Z") ||
+//             char === " "
+//         ) {
+//             continue;
+//         }
+//         else {
+//             valid = false;
+//             break;
+//         }
+//     }
 
-    if (valid) {
-        console.log("Valid Name");
-    }
-    else {
-        console.log("Invalid Name");
-    }
+//     if (valid) {
+//         console.log("Valid Name");
+//     }
+//     else {
+//         console.log("Invalid Name");
+//     }
 
-});
-
-
+// });
 
 
 
@@ -50,7 +48,9 @@ form.addEventListener("submit", function(e) {
 
 
 
-let formm = document.querySelector("#ageForm");
+
+
+let form = document.querySelector("#ageForm");
 
 form.addEventListener("submit", function(e) {
 
