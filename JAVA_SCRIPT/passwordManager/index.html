@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+
+    <header>
+        <nav class="navbar px-5 bg-primary">
+            <div class="navbar-brand text-light fs-3">Password Maanager</div>
+        </nav>
+    </header>
+
+
+    <section class="container p-3 rounded shadow border">
+        <div>
+            <label for="websiteName">Website Name</label>
+            <input type="text" name="websiteName" id="WebsiteName" class="form-control">
+        </div>
+
+        <div>
+            <label for="userName">UserName</label>
+            <input type="text" name="userName" id="userName" class="form-control">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" class="form-control">
+        </div>
+
+        <div>
+            <label for="cfPassword">Confirm Password</label>
+            <input type="password" name="password" id="password" class="form-control">
+        </div>
+
+        <div class="mt-2 d-flex justify-content-between">
+            <button class="btn btn-secondary">Clear Form</button>
+            <button class="btn btn-primary " onclick="">Save Password</button>
+        </div>
+    </section>
+
+
+
+
+    <section class="container p-3 rounded shadow border mt-3">
+        <table class="table table-striped border table-bordered border-5">
+            <thead class="table-primary text-center">
+                <tr>
+                    <th>S.no</th>
+                    <th>Website Name</th>
+                    <th>UserName</th>
+                    <th>Password</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody class="text-center" id="">
+                <tr class="colspan">
+                    <td>No Password Save</td>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </section>
+
+
+
+    <!-- Bootstrap Screen -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
