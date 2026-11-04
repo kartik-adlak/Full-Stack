@@ -1,4 +1,4 @@
-
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,4 +97,122 @@
 
     <script src="script.js"></script>
 </body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar px-5 bg-primary">
+        <div class="navbar-brand text-light fs-3">Password Manager</div>
+      </nav>
+    </header>
+
+    <section class="container p-3 rounded shadow border mt-3">
+      <div class="d-flex gap-3 w-100">
+        <div class="w-100">
+          <label for="websiteName">Website Name</label>
+          <input
+            type="text"
+            name="websiteName"
+            id="websiteName"
+            class="form-control"
+          />
+        </div>
+        <div class="w-100">
+          <label for="userName">UserName</label>
+          <input
+            type="text"
+            name="userName"
+            id="userName"
+            class="form-control"
+          />
+        </div>
+      </div>
+      <div class="d-flex gap-3 w-100">
+        <div class="w-100">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control"
+          />
+        </div>
+        <div class="w-100">
+          <label for="cfPassword">Confirm Password</label>
+          <input
+            type="password"
+            name="cfPassword"
+            id="cfPassword"
+            class="form-control"
+          />
+        </div>
+      </div>
+      <div class="mt-2 d-flex justify-content-between">
+        <button class="btn btn-secondary" onclick="ClearForm()">
+          Clear form
+        </button>
+        <button class="btn btn-primary" onclick="SavePassword()">
+          Save Password
+        </button>
+      </div>
+    </section>
+
+    <section class="container p-3 rounded shadow border mt-3">
+      <table class="table table-striped border table-bordered border-5">
+        <thead class="table-primary text-center">
+          <tr>
+            <th>S.no</th>
+            <th>Website Name</th>
+            <th>UserName</th>
+            <th>Password</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody class="text-center" id="dataTable">
+          <tr id="emptyState">
+            <td colspan="5">No Saved Password</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
