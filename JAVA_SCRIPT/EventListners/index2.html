@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventListener CARD</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        
+        #main{
+            padding: 50px 100px;
+            width: 100%;
+            height: 100%;
+            background-color: #222;
+        }
+        input{
+            display: block;
+            padding: 6px 30px;
+            font-size: 18px;
+        }
+
+        .card{
+            max-width: 300px;
+            color: #fff;
+            margin-top: 40px;
+            border-radius: 10px;
+            display: inline-block;
+            padding: 20px;
+            border: 2px solid #555;
+        }
+
+        .profile{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        
+        .profile img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .card h5{
+            margin-top:  3px;
+        }
+        .card p{
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+       
+    <form action="">
+        <input type="text" placeholder="profile pic">
+        <br>
+        <input type="text" placeholder="name">
+        <br>
+        <input type="text" placeholder="occupation">
+        <br>
+        <input type="text" placeholder="info">
+        <br>
+        <input type="submit">
+    </form>
+
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
